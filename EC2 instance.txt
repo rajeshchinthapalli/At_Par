@@ -1,0 +1,9 @@
+﻿Steps required to create an EC2 instance
+
+1.Choose AMI:- choose the type of AMI (Amazon Machine Image) i.e., the type of O.S. required. Select the ones which come under free tier. Choose the Linux AMI as it comes loaded with required features.
+2.Choose Instance Type:- choose the free tier instance type i.e., t2 micro and proceed to configure the instance.
+3.Configure Instance:- choose the number of instances required and proceed to select the storage.
+4.Add Storage:-  choose the size of instance required. By default, the storage will be of 8 GB in size. If a user wants to increase the size then they can customise it accordingly. After this step, proceed to choose the tags.
+5.Add Tags:- in this step, the user can add the tags of the type of work frame which is going to be deployed. After this step, proceed to configure the security group.
+6.Configure Security Group:-in this step, choose the type of security level required for the instance. A user can add another rule other than the default security enabled.
+7.Review :-in this step, once all the previous steps are done, the user gets to finalise the instance and it is ready to run
